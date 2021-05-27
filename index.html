@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Color Picker</title>
+  </head>
+  <body>
+    <div class="main">
+        <h3>Random Color Generator</h3>
+      <div class="title">
+          <div class="text-input">
+            <input type='text' id="text" value='Background Color' readonly></input>
+          </div>
+       
+        <div class="btns">
+            <button class="btn">Click Me</button>
+            <button onclick="copyText()">Copy Hex Color</button></div>
+        
+      </div>
+      <span id='span'></span>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
