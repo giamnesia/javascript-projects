@@ -1,3 +1,3 @@
-#Color Generator
+# Color Generator
 
 > HTML, SCSS, Javascript
