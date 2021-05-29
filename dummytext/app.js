@@ -3,26 +3,41 @@ btn = document.querySelector(".btn");
 dummy = document.getElementById("dummytext");
 copy = document.querySelector(".copy");
 const dummytext = [
-  `Jelly sweet roll jelly beans biscuit pie macaroon chocolate donut. Carrot cake caramels pie sweet apple pie tiramisu carrot cake. Marzipan marshmallow croissant tootsie roll lollipop. Cupcake lemon drops bear claw gummies. Jelly bear claw gummi bears lollipop cotton candy gummi bears chocolate bar cake cookie. Cupcake muffin danish muffin cookie gummies. Jelly beans tiramisu pudding. Toffee soufflé chocolate cake pastry brownie. Oat cake halvah sweet roll cotton candy croissant lollipop. Macaroon tiramisu chocolate bar candy candy carrot cake jelly sweet. Gummies croissant macaroon dessert. Chocolate cake dragée pie.`,
-  `Next level tbh everyday carry, blog copper mug forage kitsch roof party pickled hammock kale chips tofu. Etsy shoreditch 8-bit microdosing, XOXO viral butcher banh mi humblebrag listicle woke bicycle rights brunch before they sold out ramps. Twee shabby chic taiyaki flannel, enamel pin venmo vape four loko. Hexagon kale chips typewriter kitsch 8-bit organic plaid small batch keffiyeh ethical banh mi narwhal echo park cronut.`,
-  `Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.`,
-  `Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers kitty power ignore the squirrels, you'll never catch them anyway for what a cat-ass-trophy! or purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table. Pretend you want to go out but then don't bite off human's toes, yet disappear for four days and return home with an expensive injury; bite the vet so catch eat throw up catch eat throw up bad birds. `,
-  `This opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry! Anyhoo, your net-suits will allow you to experience Fry's worm infested bowels as if you were actually wriggling through them.
-  I just told you! You've killed me! Fry! Quit doing the right thing, you jerk! Michelle, I don't regret this, but I both rue and lament it. Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat.`,
-  `Airedale hard cheese mozzarella. Pecorino melted cheese port-salut emmental babybel cheese and wine melted cheese manchego. Everyone loves blue castello everyone loves fromage cheese slices airedale cheddar cream cheese. Bavarian bergkase who moved my cheese halloumi port-salut gouda jarlsberg ricotta rubber cheese. Stinking bishop smelly cheese brie.`,
-  `Salvia glossier subway tile, leggings mustache YOLO semiotics chia. Pitchfork tbh af blog church-key meggings vaporware PBR&B master cleanse post-ironic man bun pabst mustache letterpress synth. Snackwave raw denim godard, 3 wolf moon shaman offal kitsch unicorn live-edge selvage schlitz fashion axe vaporware drinking vinegar prism. Shabby chic tacos artisan, chambray chicharrones cardigan leggings typewriter af pop-up williamsburg meditation PBR&B viral. You probably haven't heard of them DIY jean shorts subway tile fashion axe bushwick kitsch tumeric cloud bread vaporware freegan franzen pork belly chicharrones banh mi.`,
+  `We're no strangers to love. You know the rules and so do I. A full commitment's what I'm thinking of. You wouldn't get this from any other guy, I just wanna tell you how I'm feeling. Gotta make you understand Never gonna give you up. Never gonna give you up. Never gonna let you down.Never gonna run around and desert you. Never gonna make you cry. Never gonna say goodbye. Never gonna tell a lie and hurt you.`,
 
-  `Man braid celiac synth freegan readymade, pitchfork fam salvia waistcoat lomo bitters gentrify four loko. Pitchfork semiotics post-ironic vegan. Tofu meditation microdosing hashtag semiotics venmo. Flexitarian vape tilde taiyaki. Prism poutine farm-to-table, messenger bag vegan taxidermy tattooed sartorial squid jean shorts fixie selvage trust fund vape.`,
+  `
+  
+My ship went down in a sea of sound. When I woke up alone, I had everything. A handful of moments, I wished I could change. And a tongue like a nightmare that cut like a blade. In a city of fools, I was careful and cool. But they tore me apart like a hurricane. A handful of moments, I wished I could change. But I was carried away `,
+  `
+  
+Once the last drop of rain has dried off the pavement. Shouldn't I find a stain, but I never do. The way the tires turn stones, on old county roads. They leave 'em muddy underneath. Reminds me of you.You find graffiti on the walls of old bathroom stalls. You know, you can scratch it right off. It's how it used to be.But like the dollar in your pocket, it's been spent and traded in. You can't change where it's been.Reminds me of me`,
+  `
 
-  `Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine knave. Buccaneer gangway jack rum loot spyglass line Jack Tar fore gaff. Gaff topmast scuttle ballast swab draught measured fer yer chains dance the hempen jig Chain Shot yardarm.`,
+Hello there, The angel from my nightmare, The shadow in the background of the morgue. The unsuspecting victim of darkness in the valley. We can live like Jack and Sally If we want. Where you can always find me. And we'll have Halloween on Christmas. And in the night we'll wish this never ends, We'll wish this never ends.`,
+  `
+
+Even though we're going through it. And it makes you feel alone. Just know that I would die for you. Baby I would die for you, yeah. The distance and the time between us. It'll never change my mind, 'cause baby. I would die for you. Baby I would die for you, yeah`,
+  `
+  
+No other boy ever made me feel beautiful, When I'm in your arms, feels like I have it all, Is it your tattoos or golden grill, That makes me feel this way? Got me spinning like a ballerina, Feeling gangsta every time I see ya,You're the king and, baby, I'm the queen of Disaster, disaster`,
+
+  `
+
+Keep talking. And I'll find a way to forgive you. See you in the light I wish to. Like I always do. And keep crying.Yeah, I'll find a way to make it my bad. Never mind you going behind my back. And leaving out the truth.Call me the queen of silver linings. And you can be king of good intentions. No matter what you do. No matter what you say. I'll always find a way to love you`,
+  `
+
+But it ended like a bad dream.Curtain opened, heard the crowd roar.This one's a repeat, seen it before. Rewind to the start before it all went wrong. Whats going on? Fast forward to the end, after everyone's gone home. And they've forgotten it all.`,
+  `
+
+I had a dream. I got everything I wanted. But when I wake up, I see. You with me. And you say, "As long as I'm here. No one can hurt you. Don't wanna lie here. But you can learn to. If I could change.The way that you see yourself. You wouldn't wonder why you hear. They don't deserve you"
+  
+  `,
 ];
 
 btn.addEventListener("click", function () {
   const inputtext = parseInt(input.value);
-  console.log(inputtext);
-  console.log(typeof inputtext);
 
-  dummy.innerText = dummytext.slice(0, inputtext);
+  dummy.textContent = dummytext.slice(0, inputtext);
 });
 
 function copyText() {
