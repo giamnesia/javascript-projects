@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Dummy Text Generator</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Dummy Text Generator</h1>
+      <div class="text">
+        <input
+          min="0"
+          oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null"
+          class="input"
+          placeholder="Paragraph.. 1-9"
+          maxlength="1"
+          type="tel"
+        />
+        <button class="btn">Generate</button>
+        <button onclick="copyText()" class="copy">Copy Text</button>
+      </div>
+      <div class="area">
+        <textarea
+          readonly
+          rows="25"
+          cols="90"
+          id="dummytext"
+          placeholder="Text Goes Here.."
+        ></textarea>
+      </div>
+      >
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-moz-selection {
+  background-color: #f2aa4cff;
+}
+
+::selection {
+  background-color: #f2aa4cff;
+}
+
+body {
+  background-color: #101820ff;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px;
+}
+
+.text input {
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  width: 300px;
+}
+
+.text button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #101820ff;
+  border: 2px solid;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.text button:hover {
+  background-color: #f2aa4cff;
+}
+
+.area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px;
+}
+
+.area textarea {
+  resize: none;
+  outline: none;
+  border: 5px solid #f2aa4cff;
+  margin: 10px;
+  padding: 16px;
+}
+/*# sourceMappingURL=styles.css.map */
