@@ -7,3 +7,5 @@
 >Password Generator
 
 >Todo App
+
+>Clock JavaScript (Landing Page)
