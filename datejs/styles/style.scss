@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+@mixin center($direction) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.time-content {
+  @include center(column);
+  margin: 10px;
+  padding: 10px;
+  .time {
+    font-size: 50px;
+  }
+  .country {
+    margin: 10px;
+  }
+}
+
+.textname {
+  text-align: center;
+}
+.main {
+  @include center(column);
+  height: 70vh;
+}
+.message {
+  margin: 30px;
+  text-align: center;
+  .message-text {
+    font-style: italic;
+    font-size: 16px;
+  }
+}
+.input {
+  @include center(row);
+  margin: 10px;
+  padding: 10px;
+  input {
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+  button {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: 300vw auto;
+  }
+}
